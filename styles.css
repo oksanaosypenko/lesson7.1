@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    transition: all .1s ease-in;
+    background-color: #3399cc;
+    border: 20px solid #2b81ac;
+}
+header {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+   
+    font-size: 0;
+}
+
+.list li {
+    display: inline-block;
+    height: 120px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    transition: all 350ms;
+    padding-top: 25px;
+}
+
+
+.list ul:hover li {
+    opacity: 0.6;
+    cursor: pointer;
+   /*font-size: 30px;!!!!!! */
+}
+
+.list ul li:hover {
+    opacity: 5;
+    border: 1.5px dashed white;
+  }
+
+.dbl {
+    width: 50%;
+}
+.single {
+    width: 25%;
+}
+.list li:nth-child(1) {
+       background-color: #3399cc;
+   }
+.list li:nth-child(2) {
+      background-color: #33cccc;
+}
+.list li:nth-child(3) {
+    background-color: #996699;
+}
+.list li:nth-child(4) {
+    background-color: #c24747;
+}
+.list li:nth-child(5) {
+    background-color: #e2674a;
+}
+.list li:nth-child(6) {
+    background-color: #ffcc66;
+}
+.list li:nth-child(7) {
+    background-color: #99cc99;
+}
+.list li:nth-child(8) {
+    background-color: #669999;
+}
+.list li:nth-child(9) {
+        background-color: #cc6699;
+}
+.list li:nth-child(10) {
+    background-color: #339966;
+}
+.list li:nth-child(11) {
+    width: 100%;
+    background-color: #666699;
+}
+
+footer {
+    color: #fff;
+    margin: 20px 20px;
+    text-align: center;
+    }
+ 
